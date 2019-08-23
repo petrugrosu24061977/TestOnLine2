@@ -1,0 +1,6 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLine.Common\TestOnLine.Common\bin\Debug\TestOnLine.Common.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLine.Common\TestOnLine.Common\bin\Debug\TestOnLine.Common.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLine.Common\TestOnLine.Common\obj\Debug\TestOnLine.Common.csprojAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLine.Common\TestOnLine.Common\obj\Debug\TestOnLine.Common.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLine.Common\TestOnLine.Common\obj\Debug\TestOnLine.Common.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLine.Common\TestOnLine.Common\obj\Debug\TestOnLine.Common.pdb
