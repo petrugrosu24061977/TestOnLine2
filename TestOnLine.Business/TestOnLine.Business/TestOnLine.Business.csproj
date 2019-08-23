@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\TestOnLine.DAL.csproj" />
+    <ProjectReference Include="..\..\TestOnLine.Common\TestOnLine.Common\TestOnLine.Common.csproj" />
+  </ItemGroup>
+
+</Project>
