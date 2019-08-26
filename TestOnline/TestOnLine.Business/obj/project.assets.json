@@ -25,6 +25,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "TestOnLine.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TestOnLine.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestOnLine.Common.dll": {}
+        }
+      },
+      "TestOnLine.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "TestOnLine.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestOnLine.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestOnLine.DAL.dll": {}
+        }
       }
     }
   },
@@ -170,11 +193,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "TestOnLine.Common/1.0.0": {
+      "type": "project",
+      "path": "../TestOnLine.Common/TestOnLine.Common.csproj",
+      "msbuildProject": "../TestOnLine.Common/TestOnLine.Common.csproj"
+    },
+    "TestOnLine.DAL/1.0.0": {
+      "type": "project",
+      "path": "../TestOnLine.DAL/TestOnLine.DAL.csproj",
+      "msbuildProject": "../TestOnLine.DAL/TestOnLine.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "TestOnLine.Common >= 1.0.0",
+      "TestOnLine.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -206,7 +241,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj"
+            },
+            "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
