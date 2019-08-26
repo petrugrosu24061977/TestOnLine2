@@ -1,8 +1,0 @@
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\bin\Debug\netcoreapp2.1\EntityFramexorkClassLibrary.dll
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.csprojAssemblyReference.cache
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.csproj.CoreCompileInputs.cache
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.RazorAssemblyInfo.cache
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.RazorAssemblyInfo.cs
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.AssemblyInfoInputs.cache
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.AssemblyInfo.cs
-C:\Users\user\Documents\Visual Studio 2017\Projects\TestOnLineApi\TestOnLineApi\obj\Debug\netcoreapp2.1\TestOnLineApi.RazorTargetAssemblyInfo.cache
