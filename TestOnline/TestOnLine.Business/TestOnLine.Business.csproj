@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TestOnLine.Common\TestOnLine.Common.csproj" />
-    <ProjectReference Include="..\TestOnLine.DAL\TestOnLine.DAL.csproj" />
+    <ProjectReference Include="..\TestOnLine.DAL\EntityFramexorkClassLibrary\TestOnLine.DAL.csproj" />
   </ItemGroup>
 
 </Project>

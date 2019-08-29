@@ -211,8 +211,7 @@
       },
       "TestOnLine.Business/1.0.0": {
         "dependencies": {
-          "TestOnLine.Common": "1.0.0",
-          "TestOnLine.DAL": "1.0.0"
+          "TestOnLine.Common": "1.0.0"
         },
         "runtime": {
           "TestOnLine.Business.dll": {}
@@ -227,17 +226,6 @@
         },
         "compile": {
           "TestOnLine.Common.dll": {}
-        }
-      },
-      "TestOnLine.DAL/1.0.0": {
-        "dependencies": {
-          "TestOnLine.Common": "1.0.0"
-        },
-        "runtime": {
-          "TestOnLine.DAL.dll": {}
-        },
-        "compile": {
-          "TestOnLine.DAL.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3250,11 +3238,6 @@
       "sha512": ""
     },
     "TestOnLine.Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TestOnLine.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
