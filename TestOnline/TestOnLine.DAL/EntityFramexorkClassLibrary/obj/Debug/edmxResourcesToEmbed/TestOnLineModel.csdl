@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestOnlineModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Label" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IsGood" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Result" Relationship="Self.FK__Result__AnswerId__1FCDBCEB" FromRole="Answer" ToRole="Result" />
+  </EntityType>
+  <EntityType Name="Candidate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="Self.FK__Test__CandidateI__1367E606" FromRole="Candidate" ToRole="Test" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Statement" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Result" Relationship="Self.FK__Result__Question__1ED998B2" FromRole="Question" ToRole="Result" />
+    <NavigationProperty Name="TestQuestion" Relationship="Self.FK__TestQuest__Quest__1920BF5C" FromRole="Question" ToRole="TestQuestion" />
+  </EntityType>
+  <EntityType Name="Result">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TestId" Type="Int32" />
+    <Property Name="QuestionId" Type="Int32" />
+    <Property Name="AnswerId" Type="Int32" />
+    <NavigationProperty Name="Answer" Relationship="Self.FK__Result__AnswerId__1FCDBCEB" FromRole="Result" ToRole="Answer" />
+    <NavigationProperty Name="Question" Relationship="Self.FK__Result__Question__1ED998B2" FromRole="Result" ToRole="Question" />
+    <NavigationProperty Name="Test" Relationship="Self.FK__Result__TestId__1DE57479" FromRole="Result" ToRole="Test" />
+  </EntityType>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CandidateId" Type="Int32" />
+    <NavigationProperty Name="Candidate" Relationship="Self.FK__Test__CandidateI__1367E606" FromRole="Test" ToRole="Candidate" />
+    <NavigationProperty Name="Result" Relationship="Self.FK__Result__TestId__1DE57479" FromRole="Test" ToRole="Result" />
+    <NavigationProperty Name="TestQuestion" Relationship="Self.FK__TestQuest__TestI__182C9B23" FromRole="Test" ToRole="TestQuestion" />
+  </EntityType>
+  <EntityType Name="TestQuestion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TestId" Type="Int32" />
+    <Property Name="QuestionId" Type="Int32" />
+    <NavigationProperty Name="Question" Relationship="Self.FK__TestQuest__Quest__1920BF5C" FromRole="TestQuestion" ToRole="Question" />
+    <NavigationProperty Name="Test" Relationship="Self.FK__TestQuest__TestI__182C9B23" FromRole="TestQuestion" ToRole="Test" />
+  </EntityType>
+  <Association Name="FK__Result__AnswerId__1FCDBCEB">
+    <End Role="Answer" Type="Self.Answer" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="AnswerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Test__CandidateI__1367E606">
+    <End Role="Candidate" Type="Self.Candidate" Multiplicity="0..1" />
+    <End Role="Test" Type="Self.Test" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Candidate">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Test">
+        <PropertyRef Name="CandidateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Result__Question__1ED998B2">
+    <End Role="Question" Type="Self.Question" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TestQuest__Quest__1920BF5C">
+    <End Role="Question" Type="Self.Question" Multiplicity="0..1" />
+    <End Role="TestQuestion" Type="Self.TestQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TestQuestion">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Result__TestId__1DE57479">
+    <End Role="Test" Type="Self.Test" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="TestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TestQuest__TestI__182C9B23">
+    <End Role="Test" Type="Self.Test" Multiplicity="0..1" />
+    <End Role="TestQuestion" Type="Self.TestQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TestQuestion">
+        <PropertyRef Name="TestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TestOnlineEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Answer" EntityType="Self.Answer" />
+    <EntitySet Name="Candidate" EntityType="Self.Candidate" />
+    <EntitySet Name="Question" EntityType="Self.Question" />
+    <EntitySet Name="Result" EntityType="Self.Result" />
+    <EntitySet Name="Test" EntityType="Self.Test" />
+    <EntitySet Name="TestQuestion" EntityType="Self.TestQuestion" />
+    <AssociationSet Name="FK__Result__AnswerId__1FCDBCEB" Association="Self.FK__Result__AnswerId__1FCDBCEB">
+      <End Role="Answer" EntitySet="Answer" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Test__CandidateI__1367E606" Association="Self.FK__Test__CandidateI__1367E606">
+      <End Role="Candidate" EntitySet="Candidate" />
+      <End Role="Test" EntitySet="Test" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Result__Question__1ED998B2" Association="Self.FK__Result__Question__1ED998B2">
+      <End Role="Question" EntitySet="Question" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TestQuest__Quest__1920BF5C" Association="Self.FK__TestQuest__Quest__1920BF5C">
+      <End Role="Question" EntitySet="Question" />
+      <End Role="TestQuestion" EntitySet="TestQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Result__TestId__1DE57479" Association="Self.FK__Result__TestId__1DE57479">
+      <End Role="Test" EntitySet="Test" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TestQuest__TestI__182C9B23" Association="Self.FK__TestQuest__TestI__182C9B23">
+      <End Role="Test" EntitySet="Test" />
+      <End Role="TestQuestion" EntitySet="TestQuestion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

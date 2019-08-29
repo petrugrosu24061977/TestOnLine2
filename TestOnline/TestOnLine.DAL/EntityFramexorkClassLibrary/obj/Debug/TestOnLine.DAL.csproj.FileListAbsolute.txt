@@ -1,0 +1,13 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramexorkClassLibrary.dll.config
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramexorkClassLibrary.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramexorkClassLibrary.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\obj\Debug\TestOnLine.DAL.csprojAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\obj\Debug\TestOnLine.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\obj\Debug\TestOnLine.DAL.csproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\obj\Debug\EntityFramexorkClassLibrary.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\EntityFramexorkClassLibrary\EntityFramexorkClassLibrary\obj\Debug\EntityFramexorkClassLibrary.pdb
