@@ -6,3 +6,4 @@ C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnlin
 C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Common\obj\Debug\netstandard2.0\TestOnLine.Common.AssemblyInfo.cs
 C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Common\obj\Debug\netstandard2.0\TestOnLine.Common.dll
 C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Common\obj\Debug\netstandard2.0\TestOnLine.Common.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Common\obj\Debug\netstandard2.0\TestOnLine.Common.csprojAssemblyReference.cache

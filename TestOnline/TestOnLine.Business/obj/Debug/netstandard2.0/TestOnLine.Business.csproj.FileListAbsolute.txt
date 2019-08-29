@@ -7,3 +7,15 @@ C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnlin
 C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.AssemblyInfo.cs
 C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.dll
 C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\EntityFramexorkClassLibrary.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Common.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\AutoMapper.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Common.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\EntityFramexorkClassLibrary.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\EntityFramexorkClassLibrary.dll.config
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\AutoMapper.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\AutoMapper.xml
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\ru\EntityFramework.resources.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.csproj.CopyComplete
