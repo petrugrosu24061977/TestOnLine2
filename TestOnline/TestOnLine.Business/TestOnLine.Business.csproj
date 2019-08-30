@@ -1,12 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\TestOnLine.Common\TestOnLine.Common.csproj" />
-    <ProjectReference Include="..\TestOnLine.DAL\EntityFramexorkClassLibrary\TestOnLine.DAL.csproj" />
-  </ItemGroup>
 
 </Project>

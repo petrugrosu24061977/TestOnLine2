@@ -8,7 +8,7 @@ using TestOnLine.DAL;
 namespace TestOnLine.Business
 {
 
-public  class CandidateBusiness
+    public class CandidateBusiness
     {
 
 
@@ -38,7 +38,7 @@ public  class CandidateBusiness
         }
 
 
-         public static void Delete(int id)
+        public static void Delete(int id)
         {
             CandidateRepository.Delete(id);
         }
