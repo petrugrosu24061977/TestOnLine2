@@ -1,0 +1,8 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\bin\Debug\netcoreapp2.2\TestOnLine.DAL.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\bin\Debug\netcoreapp2.2\TestOnLine.DAL.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\bin\Debug\netcoreapp2.2\TestOnLine.DAL.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\obj\Debug\netcoreapp2.2\TestOnLine.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\obj\Debug\netcoreapp2.2\TestOnLine.DAL.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\obj\Debug\netcoreapp2.2\TestOnLine.DAL.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\obj\Debug\netcoreapp2.2\TestOnLine.DAL.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnline\TestOnLine.DAL\obj\Debug\netcoreapp2.2\TestOnLine.DAL.pdb
