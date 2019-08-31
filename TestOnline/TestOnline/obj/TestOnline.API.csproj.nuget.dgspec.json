@@ -4,6 +4,185 @@
     "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnline\\TestOnline.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Business\\TestOnLine.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Business\\TestOnLine.Business.csproj",
+        "projectName": "TestOnLine.Business",
+        "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Business\\TestOnLine.Business.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj"
+              },
+              "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
+        "projectName": "TestOnLine.Common",
+        "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj",
+        "projectName": "TestOnLine.DAL",
+        "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnline\\TestOnline.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +208,14 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Business\\TestOnLine.Business.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.Business\\TestOnLine.Business.csproj"
+              },
+              "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnline\\TestOnLine.DAL\\TestOnLine.DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
