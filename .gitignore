@@ -3,11 +3,11 @@
 ################################################################################
 
 /TestOnline/.vs/
-/TestOnline/WebApi/obj
-/TestOnline/WebApi/bin
-/TestOnline/Business/obj
-/TestOnline/Business/bin
-/TestOnline/Dal/obj
-/TestOnline/Dal/bin
-/TestOnline/Common/obj
-/TestOnline/Common/bin
+/TestOnline/TestOnLine.WebApi/obj
+/TestOnline/TestOnLine.WebApi/bin
+/TestOnline/TestOnLine.Business/obj
+/TestOnline/TestOnLine.Business/bin
+/TestOnline/TestOnLine.Dal/obj
+/TestOnline/TestOnLine.Dal/bin
+/TestOnline/TestOnLine.Common/obj
+/TestOnline/TestOnLine.Common/bin
