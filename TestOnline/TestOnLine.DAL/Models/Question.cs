@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace TestOnline.DAL
+namespace TestOnLine.Dal.Models
 {
     public partial class Question
     {
@@ -14,7 +13,7 @@ namespace TestOnline.DAL
         public int Id { get; set; }
         public string Statement { get; set; }
 
-        public ICollection<Answer> Answer { get; set; }
-        public ICollection<TestQuestion> TestQuestion { get; set; }
+        public virtual ICollection<Answer> Answer { get; set; }
+        public virtual ICollection<TestQuestion> TestQuestion { get; set; }
     }
 }

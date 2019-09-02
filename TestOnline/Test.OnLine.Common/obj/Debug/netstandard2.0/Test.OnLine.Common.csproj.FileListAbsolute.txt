@@ -1,0 +1,9 @@
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\bin\Debug\netstandard2.0\Test.OnLine.Common.deps.json
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\bin\Debug\netstandard2.0\Test.OnLine.Common.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\bin\Debug\netstandard2.0\Test.OnLine.Common.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\obj\Debug\netstandard2.0\Test.OnLine.Common.csprojAssemblyReference.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\obj\Debug\netstandard2.0\Test.OnLine.Common.csproj.CoreCompileInputs.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\obj\Debug\netstandard2.0\Test.OnLine.Common.AssemblyInfoInputs.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\obj\Debug\netstandard2.0\Test.OnLine.Common.AssemblyInfo.cs
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\obj\Debug\netstandard2.0\Test.OnLine.Common.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\Test.OnLine.Common\obj\Debug\netstandard2.0\Test.OnLine.Common.pdb

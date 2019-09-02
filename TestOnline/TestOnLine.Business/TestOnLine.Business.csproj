@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TestOnLine.Common\TestOnLine.Common.csproj" />
-    <ProjectReference Include="..\TestOnLine.DAL\TestOnLine.DAL.csproj" />
+    <ProjectReference Include="..\TestOnLine.Dal\TestOnLine.Dal.csproj" />
   </ItemGroup>
 
 </Project>

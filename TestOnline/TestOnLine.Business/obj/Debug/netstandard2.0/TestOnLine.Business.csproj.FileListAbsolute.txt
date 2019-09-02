@@ -1,0 +1,14 @@
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Business.deps.json
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Business.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Business.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.csprojAssemblyReference.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.csproj.CoreCompileInputs.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.AssemblyInfoInputs.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.AssemblyInfo.cs
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Common.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Dal.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Common.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Business\bin\Debug\netstandard2.0\TestOnLine.Dal.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Business\obj\Debug\netstandard2.0\TestOnLine.Business.csproj.CopyComplete

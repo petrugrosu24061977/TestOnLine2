@@ -1,0 +1,12 @@
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Dal.deps.json
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Dal.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csproj.CoreCompileInputs.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.AssemblyInfoInputs.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.AssemblyInfo.cs
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Dal.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csprojAssemblyReference.cache
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Common.dll
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Common.pdb
+D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csproj.CopyComplete

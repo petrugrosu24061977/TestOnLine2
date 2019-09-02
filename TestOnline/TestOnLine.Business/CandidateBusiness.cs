@@ -1,49 +1,23 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using TestOnline.Common;
-//using TestOnLine.DAL;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using TestOnLine.Business.Interfaces;
+using TestOnLine.Common;
+using TestOnLine.Dal.Interfaces;
 
-//namespace TestOnLine.Business
-//{
+namespace TestOnLine.Business
+{
+    public class CandidateBusiness : ICandidateBusiness
+    {
+        private readonly ICandidateRepository _candidateRepository;
 
-//    public class CandidateBusiness
-//    {
+        public CandidateBusiness(ICandidateRepository candidateRepository)
+        {
+            _candidateRepository = candidateRepository;
+        }
 
-
-
-//        public static IEnumerable<CandidateModel> Get()
-//        {
-//            return CandidateRepository.Get();
-//        }
-
-
-
-//        public static CandidateModel Get(int id)
-//        {
-//            return CandidateRepository.Get(id);
-//        }
-
-
-//        public static void Post(CandidateModel candidateModel)
-//        {
-//            CandidateRepository.Post(candidateModel);
-//        }
-
-
-//        public static void Put(int id, CandidateModel candidateModel)
-//        {
-//            CandidateRepository.Put(id, candidateModel);
-//        }
-
-
-//        public static void Delete(int id)
-//        {
-//            CandidateRepository.Delete(id);
-//        }
-
-
-
-//    }
-//}
+        public async Task<IEnumerable<CandidateModel>> GetCandidatesAsync()
+        {
+            return await _candidateRepository.GetCandidatesAsync();
+        }
+    }
+}
