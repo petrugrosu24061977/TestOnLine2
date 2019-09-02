@@ -1,0 +1,13 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/TestOnline/.vs/
+/TestOnline/WebApi/obj
+/TestOnline/WebApi/bin
+/TestOnline/Business/obj
+/TestOnline/Business/bin
+/TestOnline/Dal/obj
+/TestOnline/Dal/bin
+/TestOnline/Common/obj
+/TestOnline/Common/bin
