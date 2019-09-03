@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Dal\\TestOnLine.Dal.csproj": {}
+    "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Dal\\TestOnLine.Dal.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Common\\TestOnLine.Common.csproj": {
+    "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Common\\TestOnLine.Common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
         "projectName": "TestOnLine.Common",
-        "projectPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Common\\TestOnLine.Common.csproj",
-        "packagesPath": "C:\\Users\\ksousselier.FUWEAR.000\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Common\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ksousselier.FUWEAR.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,20 +56,20 @@
         }
       }
     },
-    "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Dal\\TestOnLine.Dal.csproj": {
+    "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Dal\\TestOnLine.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Dal\\TestOnLine.Dal.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Dal\\TestOnLine.Dal.csproj",
         "projectName": "TestOnLine.Dal",
-        "projectPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Dal\\TestOnLine.Dal.csproj",
-        "packagesPath": "C:\\Users\\ksousselier.FUWEAR.000\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Dal\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Dal\\TestOnLine.Dal.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ksousselier.FUWEAR.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Common\\TestOnLine.Common.csproj": {
-                "projectPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnLine\\TestOnLine.Common\\TestOnLine.Common.csproj"
+              "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj"
               }
             }
           }
@@ -97,6 +97,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.2.6, )"

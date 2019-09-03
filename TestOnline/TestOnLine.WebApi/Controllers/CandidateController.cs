@@ -10,11 +10,11 @@ namespace TestOnLine.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class CandidateController : ControllerBase
     {
         private readonly ICandidateBusiness _candidateBusiness;
 
-        public ValuesController(ICandidateBusiness candidateBusiness)
+        public CandidateController(ICandidateBusiness candidateBusiness)
         {
             _candidateBusiness = candidateBusiness;
         }
@@ -26,29 +26,33 @@ namespace TestOnLine.WebApi.Controllers
             return Ok(await _candidateBusiness.GetCandidatesAsync());
         }
 
-        // GET api/values/5
+        // GET api/candidate/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<CandidateModel> Get(int id)
         {
-            return "value";
+            return _candidateBusiness.Get(id);
         }
 
-        // POST api/values
+        // POST api/candidate
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] CandidateModel candidateModel)
         {
+            _candidateBusiness.Post(candidateModel);
+
         }
 
-        // PUT api/values/5
+        // PUT api/candidate/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] CandidateModel candidateModel)
         {
+            _candidateBusiness.Put(id, candidateModel);
         }
 
-        // DELETE api/values/5
+        // DELETE api/candidate/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            _candidateBusiness.Delete(id);
         }
     }
 }

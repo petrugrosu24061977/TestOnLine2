@@ -19,5 +19,30 @@ namespace TestOnLine.Business
         {
             return await _candidateRepository.GetCandidatesAsync();
         }
+
+
+        public  CandidateModel Get(int id)
+        {
+            return _candidateRepository.Get(id);
+        }
+
+
+        public  void Post(CandidateModel candidateModel)
+        {
+            _candidateRepository.Post(candidateModel);
+        }
+
+
+        public  void Put(int id, CandidateModel candidateModel)
+        {
+            _candidateRepository.Put(id, candidateModel);
+        }
+
+
+        public  void Delete(int id)
+        {
+            _candidateRepository.Delete(id);
+        }
+
     }
 }

@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ksousselier.FUWEAR.000\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
       "projectName": "TestOnLine.Common",
-      "projectPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
-      "packagesPath": "C:\\Users\\ksousselier.FUWEAR.000\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Formation\\Petru\\TestOnLine2\\TestOnline\\TestOnLine.Common\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\TestOnLine.Common.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2017\\Projects\\GITHUB\\TestOnLine2\\TestOnLine2\\TestOnline\\TestOnLine.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ksousselier.FUWEAR.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

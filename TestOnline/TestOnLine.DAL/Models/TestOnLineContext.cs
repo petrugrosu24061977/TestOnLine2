@@ -24,7 +24,7 @@ namespace TestOnLine.Dal.Models
         {
             modelBuilder.Entity<Answer>(entity =>
             {
-                entity.ToTable("Answer", "tol");
+                entity.ToTable("Answer", "dbo");
 
                 entity.Property(e => e.Code)
                     .IsRequired()
@@ -45,7 +45,7 @@ namespace TestOnLine.Dal.Models
 
             modelBuilder.Entity<Candidate>(entity =>
             {
-                entity.ToTable("Candidate", "tol");
+                entity.ToTable("Candidate", "dbo");
 
                 entity.Property(e => e.FirstName)
                     .IsRequired()
@@ -66,7 +66,7 @@ namespace TestOnLine.Dal.Models
 
             modelBuilder.Entity<Question>(entity =>
             {
-                entity.ToTable("Question", "tol");
+                entity.ToTable("Question", "dbo");
 
                 entity.Property(e => e.Statement)
                     .IsRequired()
@@ -76,7 +76,7 @@ namespace TestOnLine.Dal.Models
 
             modelBuilder.Entity<Result>(entity =>
             {
-                entity.ToTable("Result", "tol");
+                entity.ToTable("Result", "dbo");
 
                 entity.HasOne(d => d.Answer)
                     .WithMany(p => p.Result)
@@ -92,7 +92,7 @@ namespace TestOnLine.Dal.Models
 
             modelBuilder.Entity<Test>(entity =>
             {
-                entity.ToTable("Test", "tol");
+                entity.ToTable("Test", "dbo");
 
                 entity.Property(e => e.Title)
                     .IsRequired()
@@ -102,7 +102,7 @@ namespace TestOnLine.Dal.Models
 
             modelBuilder.Entity<TestQuestion>(entity =>
             {
-                entity.ToTable("TestQuestion", "tol");
+                entity.ToTable("TestQuestion", "dbo");
 
                 entity.HasOne(d => d.Question)
                     .WithMany(p => p.TestQuestion)

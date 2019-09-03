@@ -10,3 +10,15 @@ D:\Projects\Formation\Petru\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\nets
 D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Common.dll
 D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Common.pdb
 D:\Projects\Formation\Petru\TestOnLine2\TestOnLine\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Dal.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Dal.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Dal.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Common.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\bin\Debug\netstandard2.0\TestOnLine.Common.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csprojAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.csproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\GITHUB\TestOnLine2\TestOnLine2\TestOnline\TestOnLine.Dal\obj\Debug\netstandard2.0\TestOnLine.Dal.pdb
