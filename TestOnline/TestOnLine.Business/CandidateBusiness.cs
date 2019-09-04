@@ -41,7 +41,7 @@ namespace TestOnLine.Business
 
         public  async Task  DeleteCandidateAsync(int id)
         {
-            _candidateRepository.DeleteCandidateAsync(id);
+            await _candidateRepository.DeleteCandidateAsync(id);
         }
 
     }
