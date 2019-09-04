@@ -7,13 +7,13 @@ namespace TestOnLine.Dal.Interfaces
     public interface ICandidateRepository
     {
         Task<IEnumerable<CandidateModel>> GetCandidatesAsync();
-        CandidateModel Get(int id);
+        Task<CandidateModel> GetCandidateByIdAsync(int id);
         
-        void Post(CandidateModel candidateModel);
+        Task CreateCandidateAsync(CandidateModel candidateModel);
 
-        void Put(int id, CandidateModel candidateModel);
+        Task UpdateCandidateAsync(int id, CandidateModel candidateModel);
 
-        void Delete(int id);
+        Task DeleteCandidateAsync(int id);
 
 
     }

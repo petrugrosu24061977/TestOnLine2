@@ -28,31 +28,31 @@ namespace TestOnLine.WebApi.Controllers
 
         // GET api/candidate/5
         [HttpGet("{id}")]
-        public ActionResult<CandidateModel> Get(int id)
+        public async Task<ActionResult<CandidateModel>> Get(int id)
         {
-            return _candidateBusiness.Get(id);
+            return await _candidateBusiness.GetCandidateByIdAsync(id);
         }
 
         // POST api/candidate
         [HttpPost]
-        public void Post([FromBody] CandidateModel candidateModel)
+        public async Task Post([FromBody] CandidateModel candidateModel)
         {
-            _candidateBusiness.Post(candidateModel);
+           await _candidateBusiness.CreateCandidateAsync(candidateModel);
 
         }
 
         // PUT api/candidate/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] CandidateModel candidateModel)
+        public async Task Put(int id, [FromBody] CandidateModel candidateModel)
         {
-            _candidateBusiness.Put(id, candidateModel);
+           await _candidateBusiness.UpdateCandidateAsync(id, candidateModel);
         }
 
         // DELETE api/candidate/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            _candidateBusiness.Delete(id);
+           await _candidateBusiness.DeleteCandidateAsync(id);
         }
     }
 }

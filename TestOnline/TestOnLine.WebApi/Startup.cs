@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +36,7 @@ namespace TestOnLine.WebApi
             services.AddDbContext<TestOnLineContext>(options => options.UseSqlServer(Configuration.GetConnectionString("RHDatabase")));
             services.AddScoped<ICandidateBusiness, CandidateBusiness>();
             services.AddScoped<ICandidateRepository, CandidateRepository>();
+            //services.AddScoped<MapperConfiguration, AutoMapper.IConfigurationProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

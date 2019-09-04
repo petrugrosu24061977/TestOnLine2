@@ -40,7 +40,7 @@ namespace TestOnLine.Dal.Repositories
 
 
 
-        public CandidateModel Get(int id)
+        public async Task<CandidateModel> GetCandidateByIdAsync(int id)
         {
 
             MapperConfiguration config = new MapperConfiguration(cfg =>
@@ -48,7 +48,7 @@ namespace TestOnLine.Dal.Repositories
                 cfg.CreateMap<Candidate, CandidateModel>();
             });
 
-            var candidate = _ctx.Candidate.FirstOrDefault(c => c.Id == id);
+            var candidate = await  _ctx.Candidate.SingleOrDefaultAsync(c => c.Id == id);
 
             IMapper iMapper = config.CreateMapper();
             var candidateModel = iMapper.Map<Candidate, CandidateModel>(candidate);
@@ -56,7 +56,7 @@ namespace TestOnLine.Dal.Repositories
             return candidateModel;
         }
 
-        public void Post(CandidateModel candidateModel)
+        public async Task CreateCandidateAsync(CandidateModel candidateModel)
         {
 
             MapperConfiguration config = new MapperConfiguration(cfg =>
@@ -67,27 +67,30 @@ namespace TestOnLine.Dal.Repositories
             IMapper iMapper = config.CreateMapper();
             var candidate = iMapper.Map<CandidateModel, Candidate>(candidateModel);
 
-            _ctx.Candidate.Add(candidate);
+            await _ctx.Candidate.AddAsync(candidate);
             _ctx.SaveChanges();
         }
 
 
 
-        public void Put(int id, CandidateModel candidateModel)
+        public async Task UpdateCandidateAsync(int id, CandidateModel candidateModel)
         {
-            var updatedCandidate = _ctx.Candidate.FirstOrDefault(c => c.Id == id);
+            var updatedCandidate = await _ctx.Candidate.SingleOrDefaultAsync(c => c.Id == id);
+            if (updatedCandidate != null)
+            {
 
-            updatedCandidate.LastName = candidateModel.LastName;
-            updatedCandidate.FirstName = candidateModel.FirstName;
+                updatedCandidate.LastName = candidateModel.LastName;
+                updatedCandidate.FirstName = candidateModel.FirstName;
 
-            _ctx.SaveChanges();
+                _ctx.SaveChanges();
+            }
 
         }
 
 
-        public void Delete(int id)
+        public async Task DeleteCandidateAsync(int id)
         {
-            var candidat = _ctx.Candidate.FirstOrDefault(c => c.Id == id);
+            var candidat = await _ctx.Candidate.SingleOrDefaultAsync(c => c.Id == id);
             if (candidat != null)
             {
                 _ctx.Candidate.Remove(candidat);

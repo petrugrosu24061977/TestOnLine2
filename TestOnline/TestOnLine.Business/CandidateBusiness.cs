@@ -21,27 +21,27 @@ namespace TestOnLine.Business
         }
 
 
-        public  CandidateModel Get(int id)
+        public async Task<CandidateModel> GetCandidateByIdAsync(int id)
         {
-            return _candidateRepository.Get(id);
+            return await _candidateRepository.GetCandidateByIdAsync(id);
         }
 
 
-        public  void Post(CandidateModel candidateModel)
+        public async Task CreateCandidateAsync(CandidateModel candidateModel)
         {
-            _candidateRepository.Post(candidateModel);
+           await _candidateRepository.CreateCandidateAsync(candidateModel);
         }
 
 
-        public  void Put(int id, CandidateModel candidateModel)
+        public  async Task UpdateCandidateAsync(int id, CandidateModel candidateModel)
         {
-            _candidateRepository.Put(id, candidateModel);
+            await _candidateRepository.UpdateCandidateAsync(id, candidateModel);
         }
 
 
-        public  void Delete(int id)
+        public  async Task  DeleteCandidateAsync(int id)
         {
-            _candidateRepository.Delete(id);
+            _candidateRepository.DeleteCandidateAsync(id);
         }
 
     }

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnLine.WebApi", "TestOnLine.WebApi\TestOnLine.WebApi.csproj", "{C567D518-A792-4959-9EE1-44D2E3FA2443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOnLine.WebApi", "TestOnLine.WebApi\TestOnLine.WebApi.csproj", "{C567D518-A792-4959-9EE1-44D2E3FA2443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnLine.Business", "TestOnLine.Business\TestOnLine.Business.csproj", "{52FA1640-8432-4EA5-986B-ACBE030BE42E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOnLine.Business", "TestOnLine.Business\TestOnLine.Business.csproj", "{52FA1640-8432-4EA5-986B-ACBE030BE42E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnLine.Common", "TestOnLine.Common\TestOnLine.Common.csproj", "{D60949CB-AF36-4038-80EC-E4D6ED5F6845}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOnLine.Common", "TestOnLine.Common\TestOnLine.Common.csproj", "{D60949CB-AF36-4038-80EC-E4D6ED5F6845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnLine.Dal", "TestOnLine.Dal\TestOnLine.Dal.csproj", "{C5F6E828-A7EB-4572-A2E3-D2DD2C6F8E13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOnLine.Dal", "TestOnLine.Dal\TestOnLine.Dal.csproj", "{C5F6E828-A7EB-4572-A2E3-D2DD2C6F8E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnLine.Tests", "TestOnLine.Tests\TestOnLine.Tests.csproj", "{2B0EACF3-A53E-4C96-99CA-52E85418C3B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C5F6E828-A7EB-4572-A2E3-D2DD2C6F8E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5F6E828-A7EB-4572-A2E3-D2DD2C6F8E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5F6E828-A7EB-4572-A2E3-D2DD2C6F8E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0EACF3-A53E-4C96-99CA-52E85418C3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0EACF3-A53E-4C96-99CA-52E85418C3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0EACF3-A53E-4C96-99CA-52E85418C3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0EACF3-A53E-4C96-99CA-52E85418C3B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
